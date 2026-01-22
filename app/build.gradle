@@ -5,11 +5,7 @@ plugins {
 android {
     namespace 'com.fongmi.android.tv'
 
-    compileSdk {
-        version = release(36) {
-            it.minorApiLevel = 1
-        }
-    }
+    compileSdkVersion 36
 
     defaultConfig {
         applicationId "com.fongmi.android.tv"
